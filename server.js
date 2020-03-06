@@ -4,6 +4,7 @@
  //iniciando o app
  
  const app = express();
+ app.use(express.json());
 
  // iniciando o DB
  mongoose.connect(
